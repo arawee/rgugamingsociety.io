@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RGU:Gaming | Home</title>
+<link rel="icon" href="/res/favicon-32x32.png" type="image/x-icon">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text:700&display=swap" rel="stylesheet">
+<link rel = "stylesheet" type = "text/css" href = "CSS.css" />
+</head>
+<body>
+  <div class="line"></div>
+  <header class="header">
+    <div class="socicon">
+      <div class="icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="res/logos/001-facebook kopie.png" class="socials" alt="Facebook"> RGU:Gaming</a>  
+      </div>      
+      <div class="icons">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="res/logos/002-instagram kopie.png" class="socials" alt="Instagram"> RGU:Gaming</a>
+      </div>
+      <div class="icons">
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="res/logos/003-twitter kopie.png" class="socials" alt="Twitter"> @RGUGaming</a>
+      </div>
+      <div class="icons">
+        <a href="https://www.discord.com" target="_blank">
+          <img src="res/logos/004-discord kopie.png" class="socials" alt="Discord"> RGU_Gaming</a>
+      </div>
+    </div>
+    <div class="fixitpls">
+      <div class="logo">
+        <img src="res/LOGO.png" alt="RGU GAMING SOCIETY" href="home.html">
+      </div>
+    </div>
+  </header>
+  <div class="nav" id="navbar">
+      <ul>
+        <a href="home.html"><li class="active">HOME</li></a>
+        <a href="home.html"><li>JOIN US</li></a>
+        <a href="home.html"><li>MEMBERS</li></a>
+        <a href="home.html"><li>EVENTS</li></a>
+        <a href="home.html"><li>CONTACTS</li></a>
+        <a href="home.html"><li>GALLERY</li></a>
+        <a href="home.html"><li>ARTICLES</li></a>
+        <a href="home.html"><li>GAME FINDER</li></a>
+        <a href="GAMRR.html"><li>GAMRR</li></a>
+      </ul>
+  </div>
+  <div class="content">
+    <div class="bghome">
+      <div class="gradient"> <!--ALL YOUR CONTENT SHOULD BE WITHIN THESE COMMENTS-->
+        <div class="box2">
+
+        </div>
+        <div class="box3">
+
+        </div>
+        <div class="box2">
+
+        </div>
+      </div><!--UPTO HERE-->
+    </div> 
+    <div class="line"></div>
+    <footer class="footer">
+      <div class="socicon2">
+        <div class="icons">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="res/logos/001-facebook kopie.png" class="socials" alt="Facebook"> RGU:Gaming</a>  
+        </div>      
+        <div class="icons">
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="res/logos/002-instagram kopie.png" class="socials" alt="Instagram"> RGU:Gaming</a>
+        </div>
+        <div class="icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="res/logos/003-twitter kopie.png" class="socials" alt="Twitter"> @RGUGaming</a>
+        </div>
+        <div class="icons">
+          <a href="https://www.discord.com" target="_blank">
+            <img src="res/logos/004-discord kopie.png" class="socials" alt="Discord"> RGU_Gaming</a>
+        </div>
+        <div class="icons">
+          <a href="ttps://www.rguunion.co.uk/" target="_blank">
+            <img src="res/logos/logoRGUU.png" class="socialsrgu" alt="RGU:Union"> RGU:Union</a>
+        </div>
+      </div>
+      <div class="footernav">
+        <ul>
+          <a href="home.html"><li>Home</li></a>
+          <a href="home.html"><li>Join Us</li></a>
+          <a href="home.html"><li>Members</li></a>
+          <a href="home.html"><li>Events</li></a>
+          <a href="home.html"><li>Contacts</li></a>
+          <a href="home.html"><li>Gallery</li></a>
+          <a href="home.html"><li>Articles</li></a>
+          <a href="home.html"><li>Game Finder</li></a>
+          <a href="GAMRR.html"><li>GAMRR</li></a>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+</body>
